@@ -5,7 +5,7 @@ import requests
 from tkinter import messagebox as mb
 from tkinter import ttk
 def exchange():
-    code=entry.get()
+    code=combobox.get()
 
     if code:
         try:
